@@ -45,6 +45,36 @@ li {
   font-weight: bold;
 }
 
+.logo-img {
+  /* width: 100%; Set the width to 100% of its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.logo-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  margin-right: 10px; /* Add space between logo and text */
+}
+
+.logo-text {
+  font-size: 18px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .logo-img {
+      width: 20px; /* Adjust width for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  .logo-text {
+      font-size: 14px; /* Decrease font size for smaller screens */
+  }
+}
+
 .logo-text {
   display: flex;
   align-items: center;
@@ -277,27 +307,27 @@ hr {
   font-size: 1.5rem;
 }
 
-.skills-container .grid-skills .html:hover {
+.skills-container .grid-skills .javascript:hover {
   background-color: #E34F26;
 }
 
-.skills-container .grid-skills .css:hover {
+.skills-container .grid-skills .react:hover {
   background-color: #264DE4;
 }
 
-.skills-container .grid-skills .js:hover {
+.skills-container .grid-skills .nextjs:hover {
   background-color: #F7DF1E;
 }
 
-.skills-container .grid-skills .react:hover {
+.skills-container .grid-skills .java:hover {
   background-color: #61DAFB;
 }
 
-.skills-container .grid-skills .node:hover {
+.skills-container .grid-skills .github:hover {
   background-color: #339933;
 }
 
-.skills-container .grid-skills .python:hover {
+.skills-container .grid-skills .mysql:hover {
   background-color: #3776AB;
 }
 
