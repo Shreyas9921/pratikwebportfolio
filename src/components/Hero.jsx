@@ -1,6 +1,3 @@
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faJs, faReact, faNodeJs, faJava, faDatabase, faGithub } from '@fortawesome/free-brands-svg-icons';
-// import { faCode } from '@fortawesome/free-solid-svg-icons';
 import Image from "next/image";
 
 const Hero = () => {
@@ -11,9 +8,11 @@ const Hero = () => {
                 <div className="hero-text">
                     <h1>Hello There, I'm Pratik 👋</h1>
                     <p>
-                        I'm a software engineer based in Pune, MH India. I specialize in and occasionally designing
+                        I'm a Jr. software engineer based in Pune, MH India. I specialize in full-stack web development & occasionally design
                         websites, applications, and everything in between using tech stack...
+
                         {/* <FontAwesomeIcon icon={faJs} /> JavaScript,
+                        {/*<FontAwesomeIcon icon={faJs} /> JavaScript,
                         <FontAwesomeIcon icon={faReact} /> React.js,
                         <FontAwesomeIcon icon={faNodeJs} /> Node.js,
                         <FontAwesomeIcon icon={faCode} /> TypeScript,
