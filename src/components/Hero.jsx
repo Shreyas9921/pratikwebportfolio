@@ -1,6 +1,6 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faReact, faNodeJs, faJava, faDatabase, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faJs, faReact, faNodeJs, faJava, faDatabase, faGithub } from '@fortawesome/free-brands-svg-icons';
+//import { faCode } from '@fortawesome/free-solid-svg-icons';
 import Image from "next/image";
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
                     <p>
                         I'm a software engineer based in Pune, MH India. I specialize in and occasionally designing
                         websites, applications, and everything in between using tech stack...
-                        <FontAwesomeIcon icon={faJs} /> JavaScript,
+                        {/*<FontAwesomeIcon icon={faJs} /> JavaScript,
                         <FontAwesomeIcon icon={faReact} /> React.js,
                         <FontAwesomeIcon icon={faNodeJs} /> Node.js,
                         <FontAwesomeIcon icon={faCode} /> TypeScript,
@@ -21,7 +21,7 @@ const Hero = () => {
                         Spring,
                         <FontAwesomeIcon icon={faDatabase} /> MySql,
                         Mongodb,
-                        <FontAwesomeIcon icon={faGithub} /> GitHub.
+                        <FontAwesomeIcon icon={faGithub} /> GitHub. */}
                     </p>
                     <div className="social_icon">
                         <a
