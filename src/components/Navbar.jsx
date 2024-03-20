@@ -10,8 +10,8 @@ const Navbar = () => {
                 <div className="logo">
                     <Link href="/">
                         <div className="logo-text">
-                            <Image src='/Images/phoenix.png' alt="Logo" className="logo-img" width={50} height={50} />
-                            &nbsp;Portfolio Website @ Shreyas
+                            <Image src='/Images/phoenix.jpg' alt="Logo" className="logo-img" width={50} height={50} />
+                            &nbsp;Personal Portfolio
                         </div>
                     </Link>
                 </div>
