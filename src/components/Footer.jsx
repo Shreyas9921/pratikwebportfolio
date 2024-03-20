@@ -35,6 +35,14 @@ const Footer = () => {
                      <i className="fa-brands fa-linkedin"></i>
                      </a>
                      &nbsp;&nbsp;
+                    <a
+                            href="https://www.hackerrank.com/profile/pratikgade0102"
+                            aria-label="Hackerrank"
+                            target="_black"
+                            rel="noopener noreferrer">
+                            <i className="fa-brands fa-hackerrank"></i>
+                        </a>
+                    &nbsp;&nbsp;
                      <a
                      href="https://instagram.com/_shreyas_9921_"
                      aria-label="Instagram"
