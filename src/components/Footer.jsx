@@ -11,13 +11,6 @@ const Footer = () => {
                 &copy;&nbsp; Pratik's Portfolio |&nbsp;{formattedDateString} 
                 </p>
                 <div className="social_icon">
-                    <a
-                     href="https://twitter.com/TheGreatTitan21"
-                     aria-label="Twitter"
-                     target="_black"
-                     rel="noopener noreferrer">
-                     <i className="fa-brands fa-twitter"></i>
-                     </a>
                      &nbsp;&nbsp;
                      <a
                      href="https://github.com/Shreyas9921"
@@ -43,13 +36,6 @@ const Footer = () => {
                             <i className="fa-brands fa-hackerrank"></i>
                         </a>
                     &nbsp;&nbsp;
-                     <a
-                     href="https://instagram.com/_shreyas_9921_"
-                     aria-label="Instagram"
-                     target="_black"
-                     rel="noopener noreferrer">
-                     <i className="fa-brands fa-instagram"></i>
-                     </a>
                 </div>
             </div>
         </>
