@@ -15,7 +15,8 @@ const Navbar = () => {
                         </div>
                     </Link>
                 </div>
-                <a href="https://drive.google.com/file/d/18rzZv0ppiYbzoaUwJj4xhw_-sLrsoLzR/view?usp=sharing" className="cta-btn">Resume/CV</a>
+                <a href="https://drive.google.com/file/d/1xpcU2Ru2CHplCMJBoPGAO4_6vp-u6m1F/view?usp=sharing" className="cta-btn">Resume/CV</a>
+                <a href="https://drive.google.com/file/d/1qT2-6n1C46NMMAVGQ_IKeh1CRfJXhkas/view?usp=sharing" className="cta-btn">Academia</a>
             </div>
             <hr />
         </>
