@@ -7,6 +7,35 @@
     scroll-behavior: smooth;
   }
 
+  body {
+    @apply relative bg-background text-foreground;
+    background-image:
+      radial-gradient(
+        ellipse 80% 50% at 50% -20%,
+        rgba(232, 184, 74, 0.08),
+        transparent
+      ),
+      radial-gradient(
+        ellipse 60% 40% at 100% 50%,
+        rgba(232, 184, 74, 0.04),
+        transparent
+      ),
+      linear-gradient(
+        rgba(240, 236, 227, 0.015) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        90deg,
+        rgba(240, 236, 227, 0.015) 1px,
+        transparent 1px
+      );
+    background-size:
+      100% 100%,
+      100% 100%,
+      48px 48px,
+      48px 48px;
+  }
+
   a {
     @apply text-inherit no-underline transition-colors;
   }
@@ -14,5 +43,80 @@
   a:focus-visible,
   button:focus-visible {
     @apply outline outline-2 outline-offset-2 outline-accent;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply font-display text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl;
+  }
+
+  .section-intro {
+    @apply text-muted mb-10 max-w-3xl text-sm leading-[1.7] sm:text-base lg:max-w-4xl;
+  }
+
+  .section-shell {
+    @apply scroll-mt-24 border-t border-white/10 py-16 sm:py-24;
+  }
+
+  .accent-bar {
+    @apply mb-3 h-1 w-12 rounded-full bg-accent;
+  }
+
+  .social-pill {
+    @apply text-muted flex h-11 w-11 items-center justify-center rounded-full border border-white/10 transition-all duration-300 hover:border-accent/50 hover:bg-accent/10 hover:text-accent;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-md bg-accent px-6 py-3 text-base font-semibold text-background transition-all duration-300 hover:bg-foreground hover:shadow-accent-glow;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-md border border-white/15 bg-card/50 px-6 py-3 text-base font-semibold text-foreground transition-all duration-300 hover:border-accent/40 hover:text-accent;
+  }
+
+  .nav-anchor {
+    @apply text-muted rounded-md px-2 py-1 text-sm font-medium transition-colors hover:text-accent;
+  }
+
+  .profile-glow {
+    @apply relative rounded-full;
+    box-shadow:
+      0 0 0 2px rgba(232, 184, 74, 0.45),
+      0 0 18px rgba(232, 184, 74, 0.35),
+      0 0 36px rgba(232, 184, 74, 0.18);
+  }
+
+  .profile-glow::before {
+    content: "";
+    @apply pointer-events-none absolute -inset-1 rounded-full;
+    background: radial-gradient(
+      circle,
+      rgba(232, 184, 74, 0.22) 0%,
+      rgba(232, 184, 74, 0.08) 55%,
+      transparent 75%
+    );
+  }
+
+  .photo-glow-frame {
+    box-shadow:
+      0 0 0 1px rgba(232, 184, 74, 0.35),
+      0 0 24px rgba(232, 184, 74, 0.2);
+  }
+
+  .about-lead {
+    @apply font-display text-lg font-medium leading-[1.8] text-foreground sm:text-xl;
+  }
+
+  .about-body {
+    @apply text-base leading-[1.75] text-foreground/90 sm:text-lg;
+  }
+
+  .about-principle {
+    @apply rounded-xl border border-accent/20 border-l-[3px] border-l-accent/50 bg-card/50 px-5 py-5 sm:px-6;
+  }
+
+  .about-principle-label {
+    @apply text-accent mb-2 text-[0.65rem] font-semibold uppercase tracking-[0.2em];
   }
 }

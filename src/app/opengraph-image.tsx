@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Pratik Gade — Software engineer";
+export const alt = "Pratik Gade — Software Development Engineer";
 
 export const size = {
   width: 1200,
@@ -20,8 +20,8 @@ export default function OpenGraphImage() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          background: "#1D1E20",
-          color: "#DADADB",
+          background: "#141417",
+          color: "#F0ECE3",
           fontFamily: "system-ui, sans-serif",
         }}
       >
@@ -38,10 +38,10 @@ export default function OpenGraphImage() {
           style={{
             marginTop: 24,
             fontSize: 28,
-            color: "#FFCC1A",
+            color: "#E8B84A",
           }}
         >
-          Java · Spring Boot · Microservices · REST · Cloud
+          Java · Spring Boot · Agentic AI · Microservices
         </div>
       </div>
     ),

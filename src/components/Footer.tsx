@@ -2,9 +2,6 @@ import { Github, Linkedin } from "lucide-react";
 import { SiHackerrank } from "react-icons/si";
 import { formatFooterDate } from "@/lib/formatFooterDate";
 
-const socialClass =
-  "text-muted hover:text-foreground flex h-10 w-10 items-center justify-center rounded-full border border-white/10 transition-colors";
-
 export function Footer() {
   const formatted = formatFooterDate(new Date());
 
@@ -20,7 +17,7 @@ export function Footer() {
             aria-label="GitHub"
             target="_blank"
             rel="noopener noreferrer"
-            className={socialClass}
+            className="social-pill h-10 w-10"
           >
             <Github className="h-5 w-5" aria-hidden />
           </a>
@@ -29,7 +26,7 @@ export function Footer() {
             aria-label="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
-            className={socialClass}
+            className="social-pill h-10 w-10"
           >
             <Linkedin className="h-5 w-5" aria-hidden />
           </a>
@@ -38,7 +35,7 @@ export function Footer() {
             aria-label="HackerRank"
             target="_blank"
             rel="noopener noreferrer"
-            className={socialClass}
+            className="social-pill h-10 w-10"
           >
             <SiHackerrank className="h-5 w-5" aria-hidden />
           </a>
