@@ -22,7 +22,7 @@ export function Hero() {
           />
           <div className="profile-glow relative">
             <Image
-              src="/images/Pratik-Profile.jpeg"
+              src="/images/Profile-Pratik.jpeg"
               alt="Pratik Gade — professional headshot"
               width={280}
               height={280}
