@@ -10,7 +10,7 @@ import {
 } from "@/components/DrivePreviewNavLink";
 
 const resumeViewUrl =
-  "https://drive.google.com/file/d/1xpcU2Ru2CHplCMJBoPGAO4_6vp-u6m1F/view?usp=sharing";
+  "https://drive.google.com/file/d/1aPmJ5wa_3igAw4DBk_9QBN8BoIbLtQuh/view?usp=sharing";
 const resumeFileId = "1xpcU2Ru2CHplCMJBoPGAO4_6vp-u6m1F";
 
 const academiaViewUrl =
